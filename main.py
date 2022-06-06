@@ -10,7 +10,7 @@ headers["Content-Type"] = "application/x-www-form-urlencoded"
 url = "https://beta3.api.climatiq.io/estimate"
 @app.route('/')
 def hello():
-    return "Hello World!"
+    return "Welcome to UMH Co2Emission API"
 
 @app.route('/Co2Emission')
 def getEmission():
